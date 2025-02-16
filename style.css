@@ -1,0 +1,115 @@
+body {
+  
+    flex-direction: column; /* Устанавливаем вертикальное направление для элементов */
+    min-height: 100vh; /* Минимальная высота - 100% высоты окна */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+}
+header {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 20px 0;
+}
+.small-image {
+    width: 800px; /* Ширина изображения */
+    height: auto; /* Высота будет пропорциональна */
+    margin: 20px auto; /* Центрирование изображения */
+    border-radius: 8px; /* Закругленные углы для аккуратности */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Легкая тень для эффекта */
+}
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Заставляем контент занимать оставшееся пространство */
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff; /* Светлый фон для формы */
+    border: 1px solid #ccc; /* Рамка формы */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px; /* Внутренние отступы */
+    margin: 20px auto; /* Центрирование формы */
+    width: 100%; /* Ширина формы */
+    max-width: 400px; /* Максимальная ширина формы */
+}
+
+.fc label {
+    margin-bottom: 5px; /* Отступы между метками и полями ввода */
+}
+
+.fc input[type="text"],
+.fc textarea {
+    width: 100%; /* Занимает всю ширину формы */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 15px; /* Отступы между полями */
+    border: 1px solid #ccc; /* Рамка полей ввода */
+    border-radius: 5px; /* Закругленные углы */
+    font-size: 16px; /* Размер шрифта для полей ввода */
+}
+
+.fc input[type="submit"] {
+    background-color: #4CAF50; /* Цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Без рамки */
+    padding: 10px 15px; /* Внутренние отступы */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 16px; /* Размер шрифта кнопки */
+}
+
+.fc input[type="submit"]:hover {
+    background-color: #45a049; /* Цвет кнопки при наведении */
+}
+
+
+.accordion-item{
+    width: 80%;
+    margin: 0px auto;
+  
+
+}
+
+
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.container { 
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 20px;
+    gap: 20px;
+
+    width: 100%;
+}
+
